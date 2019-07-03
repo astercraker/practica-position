@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practica position</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .full-container {
+            height: 100vh;
+            background: peru;
+            overflow: auto;
+        }
+
+        .container {
+            width: 80%;
+            height: 80%;
+            background: white;
+            margin: 0 auto;
+            margin-top: 20px;
+            position: relative;
+        }
+
+        .absolute {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-left: -45px;
+        }
+
+        .icon {
+            font-size: 40px;
+            width: 40px;
+            height: 40px;
+            background: greenyellow;
+            padding: 5px;
+            text-align: center;
+            border-radius: 100%;
+        }
+
+        .square {
+            position: absolute;
+            width: 30%;
+            height: 200px;
+            background: rgba(0, 0, 255, 0.9);
+            z-index: 3;
+        }
+
+        .square2 {
+            background: rgba(0, 0, 0, 0.8);
+            left: 15%;
+            top: 100px;
+            z-index: 2;
+        }
+
+        .square3 {
+            background: rgba(117, 18, 13, 0.8);
+            left: 33%;
+            top: 150px;
+            z-index: 1;
+        }
+    </style>
+    <div class="full-container">
+        <div class="container">
+            <div class="square">
+                <h1>Hola</h1>
+            </div>
+            <div class="square square2">
+                <h1>Hola</h1>
+            </div>
+            <div class="square square3">
+                <h1>Hola</h1>
+            </div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus numquam iure at neque, id similique fuga
+            ratione. Voluptas fugiat esse, natus doloremque assumenda reiciendis dignissimos sequi cum nostrum, nemo
+            asperiores.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus numquam iure at neque, id similique fuga
+            ratione. Voluptas fugiat esse, natus doloremque assumenda reiciendis dignissimos sequi cum nostrum, nemo
+            asperiores.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus numquam iure at neque, id similique fuga
+            ratione. Voluptas fugiat esse, natus doloremque assumenda reiciendis dignissimos sequi cum nostrum, nemo
+            asperiores.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus numquam iure at neque, id similique fuga
+            ratione. Voluptas fugiat esse, natus doloremque assumenda reiciendis dignissimos sequi cum nostrum, nemo
+            asperiores.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus numquam iure at neque, id similique fuga
+            ratione. Voluptas fugiat esse, natus doloremque assumenda reiciendis dignissimos sequi cum nostrum, nemo
+            asperiores.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus numquam iure at neque, id similique fuga
+            ratione. Voluptas fugiat esse, natus doloremque assumenda reiciendis dignissimos sequi cum nostrum, nemo
+            asperiores.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus numquam iure at neque, id similique fuga
+            ratione. Voluptas fugiat esse, natus doloremque assumenda reiciendis dignissimos sequi cum nostrum, nemo
+            asperiores.
+            <a class="absolute"
+                href="https://api.whatsapp.com/send?phone=5218112214729&text=Hola%2C%20deseo%20saber%20mas%20de%20sus%20fraccionamientos en renta">
+                <i class="fab fa-whatsapp icon"></i>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="full-container">
+
+    </div>
+</body>
+
+</html>
